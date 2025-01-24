@@ -7,7 +7,7 @@ function adicionarAmigo()
 
     if(amigoInput.value == "")
     {
-        alert("Campo de nome vazio!");
+        alert("Por favor, insira um nome.");
     } else {
         listaAmigos.push(amigoInput.value);
 
